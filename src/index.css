@@ -1,0 +1,37 @@
+#app {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+/* nav a {
+    color: lightblue;
+} */
+
+footer {
+    background-color: #303030;
+}
+
+.page-main-content {
+    min-height: 550px;
+}
+
+.input-field-error {
+    margin-top: 5px;
+    border-radius: 0.25rem;
+}
+
+.btn {
+    min-width: 75px;
+}
+
+table.sortable th div.sort {
+    cursor: pointer;
+}
+
+table th {
+    min-width: 100px;
+}

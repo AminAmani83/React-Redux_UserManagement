@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`changes the submit button label to 'Save' when saving is false 1`] = `
+<form
+  onSubmit={[MockFunction]}
+>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="name"
+    >
+      Name:
+    </label>
+    <input
+      className="form-control"
+      disabled={false}
+      id="name"
+      name="name"
+      onChange={[MockFunction]}
+      type="text"
+      value="Amin1"
+    />
+    <div
+      className=" alert input-field-error"
+    />
+    <label
+      htmlFor="age"
+    >
+      Age:
+    </label>
+    <input
+      className="form-control"
+      disabled={false}
+      id="age"
+      name="age"
+      onChange={[MockFunction]}
+      type="text"
+      value={21}
+    />
+    <div
+      className=" alert input-field-error"
+    />
+    <label
+      htmlFor="addressId"
+    >
+      Address:
+    </label>
+    <select
+      className="form-control"
+      disabled={false}
+      id="addressId"
+      name="addressId"
+      onChange={[MockFunction]}
+      value={1}
+    >
+      <option
+        value={null}
+      >
+        Select an Address
+      </option>
+      <option
+        value={1}
+      >
+        QC, Montreal, 101 Sherbrooke West
+      </option>
+      <option
+        value={2}
+      >
+        QC, Montreal, 202 Sherbrooke West
+      </option>
+      <option
+        value={3}
+      >
+        QC, Montreal, 303 Sherbrooke West
+      </option>
+    </select>
+    <div
+      className=" alert input-field-error"
+    />
+    <button
+      className="btn btn-info"
+      disabled={false}
+      style={
+        Object {
+          "width": 100,
+        }
+      }
+      type="submit"
+    >
+      Save
+    </button>
+  </div>
+</form>
+`;
+
+exports[`changes the submit button label to 'Saving...' when saving is true 1`] = `
+<form
+  onSubmit={[MockFunction]}
+>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="name"
+    >
+      Name:
+    </label>
+    <input
+      className="form-control"
+      disabled={true}
+      id="name"
+      name="name"
+      onChange={[MockFunction]}
+      type="text"
+      value="Amin1"
+    />
+    <div
+      className=" alert input-field-error"
+    />
+    <label
+      htmlFor="age"
+    >
+      Age:
+    </label>
+    <input
+      className="form-control"
+      disabled={true}
+      id="age"
+      name="age"
+      onChange={[MockFunction]}
+      type="text"
+      value={21}
+    />
+    <div
+      className=" alert input-field-error"
+    />
+    <label
+      htmlFor="addressId"
+    >
+      Address:
+    </label>
+    <select
+      className="form-control"
+      disabled={true}
+      id="addressId"
+      name="addressId"
+      onChange={[MockFunction]}
+      value={1}
+    >
+      <option
+        value={null}
+      >
+        Select an Address
+      </option>
+      <option
+        value={1}
+      >
+        QC, Montreal, 101 Sherbrooke West
+      </option>
+      <option
+        value={2}
+      >
+        QC, Montreal, 202 Sherbrooke West
+      </option>
+      <option
+        value={3}
+      >
+        QC, Montreal, 303 Sherbrooke West
+      </option>
+    </select>
+    <div
+      className=" alert input-field-error"
+    />
+    <button
+      className="btn btn-info"
+      disabled={true}
+      style={
+        Object {
+          "width": 100,
+        }
+      }
+      type="submit"
+    >
+      Saving...
+    </button>
+  </div>
+</form>
+`;
