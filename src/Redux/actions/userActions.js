@@ -44,7 +44,7 @@ export const saveUser = (user) => {
   return async (dispatch) => {
     if (!user.id) {
       // adding a new user:
-      // MySQL expects to not receive an id value for Insert, even if it is empty or null
+      // MySQL expects no id value for Insert, not even empty or null
       delete user.id;
     }
 

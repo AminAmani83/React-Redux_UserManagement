@@ -79,7 +79,7 @@ const UsersPage = (props) => {
             <UserList
               users={props.users}
               newUser={props.newUser}
-              pagination={{ enabled: true, itemsPerPage: 10 }}
+              pagination={{ enabled: true, itemsPerPage: 5 }}
               enableFiltration={true}
               enableSorting={true}
               handleDeleteUserClick={handleDeleteUserClick}

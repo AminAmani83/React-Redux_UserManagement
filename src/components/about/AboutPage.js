@@ -49,14 +49,14 @@ const AboutPage = () => {
               displayed on the screen while they resolve.
             </p>
             <p>
-              A mock API was creating with JSON Server and used during the
+              A mock API was created with JSON Server and used during the
               development phase. It was later replaced with an off-the-shelf PHP
               API for deployment on the server. The JSON Server API has been
               tweaked to closely mimic the PHP API.
             </p>
             <p>
               GUIDs are used as the primary key for the tables, and they are
-              auto-generated for new items with the help of MySQL triggers.
+              auto generated for new items with the help of MySQL triggers.
             </p>
             <p>
               Using meaningful variable and file names, and adding comments
